@@ -20,6 +20,8 @@ request(options, (error, response, body) => {
     // console.log('Post successful: response: ', body);
     bodyJSON = JSON.parse(body);
     let enode = 'enode://' + bodyJSON.result.id + '@' + node1 + ':30303';
+    console.log('enode: ' + enode);
+    console.log(body);
 
     let options_connect = {
       url: "http://" + node2 + ":8545",
