@@ -1,0 +1,22 @@
+{
+  "name": "geth-connect",
+  "version": "1.0.0",
+  "description": "Connects the peers in a private Ethereum network",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-apps/geth-connect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/distributed-apps/geth-connect/issues"
+  },
+  "homepage": "https://github.com/distributed-apps/geth-connect#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
